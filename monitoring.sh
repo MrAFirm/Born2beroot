@@ -1,3 +1,7 @@
+/*This is the bash script for the mandatory part for the calculations and display of your system info.*/
+
+
+
 #!/bin/bash
 arc=$(uname -a)
 pcpu=$(grep "physical id" /proc/cpuinfo | sort | uniq | wc -l) 
